@@ -1,0 +1,151 @@
+/*---------------------------------------------------------------- MAIN BACKGROUND ---------------------------------------------------------*/
+body{
+    background: rgb(39, 36, 36);
+    min-height: 200vh;
+}
+
+/*---------------------------------------------------------------- MAIN HEADER --------------------------------------------------------------*/
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px,100px;
+    z-index: 100000;
+    background-image: linear-gradient(to bottom right, rgb(126, 113, 126), rgb(94, 100, 110));
+}
+header.VIGANCITY
+{
+    width: auto;
+    position: relative;
+    transition: 0.6s;
+}
+header.sticky
+{
+    padding: 5px, 100px;
+    background-image: linear-gradient(to bottom right, rgb(142, 171, 199), rgb(118, 71, 129));
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+    align-items: center;
+    padding-right: 20px;
+}
+header ul a 
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+img.vigan{
+    height: 50px;
+}
+img.logo{
+    width: 60px;
+}
+
+a{text-decoration: none;}
+
+a.men:hover{
+    font-size: 30px;
+    color: violet;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/*---------------------------------------------------------------- MAIN BODY ---------------------------------------------------------------*/
+
+.backg{
+    width: 1024px;
+    margin-top: 100px;
+    margin: auto;
+}
+img.bg{
+    top: 200px;
+    width: 100%;
+}
+img.gal{
+    margin-top: 100px;
+    width: 100%;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(0, 0, 0);
+}
+div#vig{
+    background: #000000;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 100px;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(0, 0, 0);
+}
+div#galle{
+    background: #000000;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(7, 7, 7), 0 0 5px rgb(0, 0, 0);
+}
+h1{
+    color: #fff;
+    font-size: 2.5em;
+}
+h2{
+    color: #fff;
+    font-size: 2.5em;
+}
+p{
+    color: #fff;
+    font-size: 1.2em;
+}
+.pagination{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 330px;
+    padding: 20px;
+}
+.page{
+    display: inline-block;
+    margin-top: 100px;
+    padding: 20px;
+}
+.pagination a{
+    color: #fff;
+    font-size: 1.5em;
+    padding-left: 20px;
+    transition: 0.6s;
+    float: left;
+}
+.page a{
+    color: #fff;
+    font-size: 1.5em;
+    padding-left: 20px;
+    transition: 0.6s;
+    float: left;
+}
+.pagination a:hover{
+    font-size: 30px;
+    color: violet;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.page a:hover{
+    font-size: 30px;
+    color: violet;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
